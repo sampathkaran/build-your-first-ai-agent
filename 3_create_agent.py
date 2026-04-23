@@ -39,10 +39,9 @@ tools = [search_tool, get_repo_list]
 current_date = datetime.now().strftime("%B %d, %Y")
 
 # Build the system prompt
-system_prompt = f"""You are an intelligent assistant that coordinates between two specialized agents:
+system_prompt = f"""You are an intelligent assistant:
 
 **Current Date: {current_date}**
-
 
 ### Available Tools
 1. **Web Search Tool ** (search_tool):
@@ -53,7 +52,6 @@ system_prompt = f"""You are an intelligent assistant that coordinates between tw
 2. **Github API Server ** (get_repo_list):
    - Use this to interact with GitHub repositories
    - Prefer this tool when the task involves code, repositories, or implementation details
-
 """
 
 #invoke the llm with tools
