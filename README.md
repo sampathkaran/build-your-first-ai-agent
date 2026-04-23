@@ -101,7 +101,7 @@ uv run python 2_basic_llm_chatbot.py
 ```bash
 uv run python 3_create_agent.py
 ```
-# 8. 🧠 Run the python file to demo the agent using google model - use this incase you wish to no pay for openai models
+# 9. 🧠 Run the python file to demo the agent using google model - use this incase you wish to no pay for openai models
 ```bash
 uv run python 4_create_agent_google.py
 ```
